@@ -66,14 +66,14 @@ Chrome installation is currently undocumented, however you will need the Chrome 
 Next, just install from Pip!
 
 ```bash
-    pip install selenium-oxide
+pip install selenium-oxide
 ```
 
 If that doesn't work, you may have an outdated version of Selenium (this library needs a version compatible with 4.1.0).
 If so:
 
 ```bash
-    pip install selenium~=4.1.0
+pip install selenium~=4.1.0
 ```
 
 That should install everythng you need.
@@ -104,7 +104,7 @@ exploit = ExploitBuilder(
     browser="firefox", # either "firefox" or "chrome"
     use_proxy=False, # if you want to use a proxy, enable this
     proxy_address="127.0.0.1:8080", # defaults to 127.0.0.1:8080
-    headless=False, # if you want headless Selenium enable this
+    headless=False, # if you want headless Selenium, enable this
     **options       # other options, see ExploitBuilder docs
 )
 ```
