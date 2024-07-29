@@ -7,4 +7,5 @@ build
 seo2_test
 */individual_testing/*
 engagements/*
+!engagements/quickstart.py
 !.gitkeep
