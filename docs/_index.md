@@ -35,6 +35,11 @@ chemical it read that it was at least somewhat dangerous.
 A dangerous version of Selenium. Checks out for an offsec
 platform.
 
+## Requirements
+
+* Python 3.10+ (for type annotations)
+* Docker and Docker Compose (for testing)
+
 ## Getting Started
 
 Like regular Selenium, you're going to need a browser binary
@@ -51,11 +56,12 @@ versions of Firefox and Geckodriver. These *should* work for most cases, however
 submitting an issue in the event you find a use case for older or more modern versions.
 
 ```bash
+# NOTE: This script is only for Debian-based distributions, or distributions that otherwise use the APT package manager.
 sudo ./install_firefox.sh
 ```
 
 Otherwise, you can manually install versions of Firefox and Geckodriver at your own discretion.
-If you ever find yourself needing to do that, I'm assuming you don't need instructions for that.
+If you ever find yourself needing to do that, once again, please submit and issue and I'll do my best to update the docs and/or install process!
 
 ### Chrome
 
@@ -69,7 +75,7 @@ Next, just install from Pip!
 pip install selenium-oxide
 ```
 
-If that doesn't work, you may have an outdated version of Selenium (this library needs a version compatible with 4.1.0).
+If that doesn't work, you may have the wrong version of Selenium (this library needs a version compatible with 4.1.0).
 If so:
 
 ```bash
