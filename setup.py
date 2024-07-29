@@ -45,7 +45,7 @@ setup(
     # List a license for the project, eg. MIT License
     license="MIT License",
     # Short description of your library:
-    description="A Selenium boilerplate for automating web exploits. Use responsibly and ethically.",
+    description="A framework for automating web exploits with Selenium and Python. Use responsibly and ethically.",
     # Long description of your library:
     long_description=long_description,
     long_description_content_type="text/markdown",
