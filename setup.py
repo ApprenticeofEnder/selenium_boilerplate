@@ -23,9 +23,10 @@
 # [options.packages.find]
 # where = src
 
-from distutils.core import setup
-from setuptools import find_packages
 import os
+from distutils.core import setup
+
+from setuptools import find_packages
 
 # Optional project description in README.md:
 current_directory = os.path.dirname(os.path.abspath(__file__))
