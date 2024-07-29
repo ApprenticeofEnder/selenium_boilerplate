@@ -26,7 +26,7 @@ exploit.get("/")
 
 Let's see what that gets us:
 
-![OWASP Juice Shop's welcome page, with a welcome modal we need to dismiss.](https://github.com/ApprenticeofEnder/Selenium-Oxide/blob/9ce192e765950070a27f320d4c51cb8a01d64867/docs/assets/dismiss_button.png)
+![OWASP Juice Shop's welcome page, with a welcome modal we need to dismiss.](https://github.com/ApprenticeofEnder/Selenium-Oxide/blob/9ce192e765950070a27f320d4c51cb8a01d64867/docs/assets/dismiss_button.png?raw=true)
 
 Hmm. Looks like we have our first hurdle already. We need to click that "Dismiss" button to proceed. Let's copy the XPath of that button by inspecting it in dev tools, right clicking, and then selecting Copy -> XPath.
 
@@ -77,7 +77,7 @@ With this one, it might be necessary to dig through the HTML until you find the 
 
 However, if we run that, and all goes well, we should get an XSS pop up! Hooray!
 
-![A web page with an alert showing the cookies for the web page. A successful XSS attack!](https://github.com/ApprenticeofEnder/Selenium-Oxide/blob/9ce192e765950070a27f320d4c51cb8a01d64867/docs/assets/xss.png)
+![A web page with an alert showing the cookies for the web page. A successful XSS attack!](https://github.com/ApprenticeofEnder/Selenium-Oxide/blob/9ce192e765950070a27f320d4c51cb8a01d64867/docs/assets/xss.png?raw=true)
 
 ## Using the User Generator
 
