@@ -30,4 +30,6 @@ RUN pip install -r requirements.txt
 
 COPY selenium_oxide selenium_oxide
 
-CMD ["python", "-m", "unittest", "discover", "-s", "tests", "-t", "selenium_oxide/"]
+COPY test_entrypoint.sh test_entrypoint.sh
+
+CMD ["./test_entrypoint.sh"]
